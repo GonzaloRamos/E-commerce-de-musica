@@ -1,0 +1,17 @@
+/* Links */ 
+
+.links:hover {
+    background-color: rgba(0, 0, 0, 0.199);
+    color: green;
+}
+
+
+/* nav hover animaciones */
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-menu>li>a:hover {
+    background-color: rgba(0, 128, 0, 0.63);
+}
