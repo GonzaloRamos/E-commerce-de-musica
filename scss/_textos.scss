@@ -58,6 +58,20 @@ h6 {
     text-align: center;
 }
 
+.lanzamientosDelMes__cards__texto {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    width: auto;
+    
+}
+
+.lanzamientosDelMes__cards__texto>a {
+    color: rgb(0, 184, 0);
+}
+
 /* Iconos */
 
 .iconosTable {

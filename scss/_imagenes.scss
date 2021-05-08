@@ -1,8 +1,32 @@
-.destacados__img {
+
+/*Img market Destacado*/
+
+.destacados__ultimosLanzamientos__img {
     display: flex;
     flex-flow: row wrap;
-    justify-content: start;
-    width: 100%;
-    max-width: 100%;
+    justify-items: center;
+    justify-content: space-evenly;
     height: auto;
 }
+
+.destacados__ultimosLanzamientos__img>img {
+    padding: 2px;
+}
+
+.destacados__label__img {
+    display: flex;
+}
+
+.destacados__label__img {
+width: 100%;
+max-width: 100%;
+height: auto;
+padding:10px;
+justify-content: space-evenly;
+
+
+}
+
+// .destacados__label__img>img {
+//     padding: 10px;
+// }
