@@ -13,10 +13,16 @@
   background-color: rgba(0, 128, 0, 0.63); }
 
 /*Colores*/
+* {
+  border: solid red 1px; }
+
 body {
   background-color: #E4E4E4; }
 
 footer {
+  background-color: #292929; }
+
+.destacados__titulos {
   background-color: #292929; }
 
 /*Imagenes*/
@@ -34,7 +40,33 @@ footer {
   width: 450px;
   margin: auto; }
 
+/* Margenes Market */
+.destacados {
+  padding: 10px; }
+
+.destacados__titulos {
+  width: 100%;
+  padding: 10px; }
+
 /*Textos*/
+h1 {
+  font-family: 'Oxygen', sans-serif; }
+
+h2 {
+  font-family: 'Oxygen', sans-serif; }
+
+h3 {
+  font-family: 'Oxygen', sans-serif; }
+
+h4 {
+  font-family: 'Oxygen', sans-serif; }
+
+h5 {
+  font-family: 'Oxygen', sans-serif; }
+
+h6 {
+  font-family: 'Oxygen', sans-serif; }
+
 .titulosGigs {
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
@@ -50,6 +82,12 @@ footer {
 
 .card-text {
   text-shadow: 1px 2px 3px black; }
+
+/*Market */
+.destacados__titulos {
+  color: white;
+  text-transform: uppercase;
+  text-align: center; }
 
 /* Iconos */
 .iconosTable {
