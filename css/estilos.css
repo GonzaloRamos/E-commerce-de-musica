@@ -10,7 +10,8 @@
   display: block; }
 
 .dropdown > .dropdown-menu > li > a:hover {
-  background-color: rgba(0, 128, 0, 0.63); }
+  background-color: rgba(0, 128, 0, 0.63);
+  transition: 0.1s; }
 
 /*Colores*/
 body {
@@ -26,9 +27,6 @@ footer {
   background-color: #292929; }
 
 /*Colores Market*/
-.header__card {
-  box-shadow: 5px 10px 10px black; }
-
 /*Imagenes*/
 /*Img market Destacado*/
 .destacados__ultimosLanzamientos__img {
@@ -68,12 +66,12 @@ footer {
 /* Margenes Market */
 .header__card {
   display: flex;
-  width: 100%;
   max-width: 100%;
   height: auto;
   flex-flow: column nowrap;
   justify-items: center;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 10px 10px 20px black; }
 
 .destacados {
   padding: 10px; }
@@ -87,6 +85,24 @@ footer {
 
 .lanzamientosDelMes {
   margin-bottom: 20px; }
+
+.lanzamientosDelMes__cards {
+  border-style: double;
+  margin-bottom: 20px; }
+
+.btn--paddingTop {
+  margin-top: 10px; }
+
+/*Footer tamaños*/
+.footer__seguinos > li > a > i {
+  font-size: 25px;
+  font-style: normal; }
+
+.footer__sitemap__icono--paddingRight {
+  padding-right: 10px; }
+
+.footer__card--border {
+  border-right: double; }
 
 /*Textos*/
 h1 {
@@ -107,6 +123,9 @@ h5 {
 h6 {
   font-family: 'Oxygen', sans-serif; }
 
+p {
+  font-family: 'Quicksand', sans-serif; }
+
 .titulosGigs {
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
@@ -122,7 +141,7 @@ h6 {
   text-shadow: 1px 2px 3px black; }
 
 .header__card__text {
-  text-shadow: 1px 2px 3px black; }
+  text-shadow: 3px 4px 5px black; }
 
 .destacados__titulos {
   color: white;

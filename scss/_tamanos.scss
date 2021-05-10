@@ -10,16 +10,17 @@
 
 /* Margenes Market */ 
 
-.header__card {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    flex-flow: column nowrap;
-    justify-items: center;
-    justify-content: center;
+ .header__card {
+     display: flex;
+     max-width: 100%;
+     height: auto;
+     flex-flow: column nowrap;
+     justify-items: center;
+     justify-content: center;
+     box-shadow: 10px 10px 20px black;
+
     
-}
+ }
 
 .destacados {
     padding: 10px;
@@ -38,4 +39,32 @@
 
 .lanzamientosDelMes {
     margin-bottom: 20px;
+}
+
+.lanzamientosDelMes__cards {
+    border-style: double;
+    margin-bottom: 20px;
+}
+
+
+.btn--paddingTop {
+    margin-top: 10px;
+}
+
+
+
+/*Footer tamaños*/
+
+.footer__seguinos>li>a>i {
+    font-size: 25px;
+    font-style: normal ;
+}
+
+.footer__sitemap__icono--paddingRight {
+    padding-right: 10px;
+}
+
+
+.footer__card--border {
+    border-right: double;
 }
