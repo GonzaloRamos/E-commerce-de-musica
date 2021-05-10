@@ -31,6 +31,9 @@ footer {
 .index__novedadesGenerales {
   background-color: #292929; }
 
+.index_ultimosGigs--white {
+  background-color: white; }
+
 /*Imagenes*/
 /*Img market Destacado*/
 .destacados__ultimosLanzamientos__img {
@@ -75,7 +78,11 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 87%; }
+  width: 87%;
+  height: auto; }
+
+.index_ultimosGigs {
+  padding: 20px; }
 
 /* Margenes Market */
 .header__card {
@@ -118,6 +125,10 @@ footer {
 .footer__card--border {
   border-right: double; }
 
+/*Seccion Gigs */
+.recomendacionesGig {
+  padding: 20px; }
+
 /*Textos*/
 h1 {
   font-family: 'Oxygen', sans-serif; }
@@ -141,14 +152,25 @@ p {
   font-family: 'Quicksand', sans-serif; }
 
 .titulosGigs {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 400;
   text-shadow: 1px 3px 3px rgba(0, 128, 0, 0.233); }
 
 .tableTitulos {
   font-family: 'Quicksand', sans-serif;
   font-size: 2em; }
+
+/*Gigs Texto*/
+.descripcionGig__texto {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  width: auto; }
+
+.descripcionGig__texto > a {
+  color: green; }
 
 /*Market */
 .header__card__titulo {

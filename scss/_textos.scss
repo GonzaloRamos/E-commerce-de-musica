@@ -33,9 +33,8 @@ p {
 }
 
 .titulosGigs {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 400;
     text-shadow: 1px 3px 3px rgba(0, 128, 0, 0.233);
 }
 
@@ -45,7 +44,21 @@ p {
 }
 
 
+/*Gigs Texto*/ 
 
+.descripcionGig__texto {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    width: auto;
+
+}
+
+.descripcionGig__texto>a {
+    color: green;
+}
 
 /*Market */ 
 
