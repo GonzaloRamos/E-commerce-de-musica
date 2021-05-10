@@ -25,6 +25,10 @@ footer {
 .lanzamientosDelMes {
   background-color: #292929; }
 
+/*Colores Market*/
+.header__card {
+  box-shadow: 5px 10px 10px black; }
+
 /*Imagenes*/
 /*Img market Destacado*/
 .destacados__ultimosLanzamientos__img {
@@ -41,11 +45,19 @@ footer {
   display: flex; }
 
 .destacados__label__img {
+  display: flex;
+  flex-flow: row wrap;
   width: 100%;
   max-width: 100%;
   height: auto;
   padding: 10px;
   justify-content: space-evenly; }
+
+.header {
+  background-image: url(../media/imagenes/banner_market_2_optimizado.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 /*Tamaños*/
 /* Registro */
@@ -54,6 +66,15 @@ footer {
   margin: auto; }
 
 /* Margenes Market */
+.header__card {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  flex-flow: column nowrap;
+  justify-items: center;
+  justify-content: center; }
+
 .destacados {
   padding: 10px; }
 
@@ -63,6 +84,9 @@ footer {
 
 .destacados__artista__borde {
   border-left: solid 1px black; }
+
+.lanzamientosDelMes {
+  margin-bottom: 20px; }
 
 /*Textos*/
 h1 {
@@ -93,13 +117,13 @@ h6 {
   font-family: 'Quicksand', sans-serif;
   font-size: 2em; }
 
-.card-title {
-  text-shadow: 1px 2px 3px black; }
-
-.card-text {
-  text-shadow: 1px 2px 3px black; }
-
 /*Market */
+.header__card__titulo {
+  text-shadow: 1px 2px 3px black; }
+
+.header__card__text {
+  text-shadow: 1px 2px 3px black; }
+
 .destacados__titulos {
   color: white;
   text-transform: uppercase;

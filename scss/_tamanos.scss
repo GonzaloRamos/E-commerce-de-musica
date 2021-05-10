@@ -10,6 +10,17 @@
 
 /* Margenes Market */ 
 
+.header__card {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    flex-flow: column nowrap;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
 .destacados {
     padding: 10px;
 }
@@ -19,6 +30,12 @@
     padding: 10px;
 }
 
+
+
 .destacados__artista__borde {
     border-left: solid 1px black;
+}
+
+.lanzamientosDelMes {
+    margin-bottom: 20px;
 }
