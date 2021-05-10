@@ -20,13 +20,17 @@ body {
 footer {
   background-color: #292929; }
 
+/*Colores Market*/
 .destacados__titulos {
   background-color: #292929; }
 
 .lanzamientosDelMes {
   background-color: #292929; }
 
-/*Colores Market*/
+/* Colores Index*/
+.index__novedadesGenerales {
+  background-color: #292929; }
+
 /*Imagenes*/
 /*Img market Destacado*/
 .destacados__ultimosLanzamientos__img {
@@ -62,6 +66,16 @@ footer {
 .formReg {
   width: 450px;
   margin: auto; }
+
+/*Index Tamaños*/
+.carousel-inner {
+  height: 500px; }
+
+.carousel-inner__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 87%; }
 
 /* Margenes Market */
 .header__card {
