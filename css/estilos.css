@@ -72,7 +72,7 @@ footer {
 
 /*Index Tamaños*/
 .carousel-inner {
-  height: 500px; }
+  height: auto; }
 
 .carousel-inner__img {
   display: block;
@@ -115,6 +115,9 @@ footer {
   margin-top: 10px; }
 
 /*Footer tamaños*/
+.footer__card {
+  padding: 15px 15px; }
+
 .footer__seguinos > li > a > i {
   font-size: 25px;
   font-style: normal; }
@@ -128,6 +131,20 @@ footer {
 /*Seccion Gigs */
 .recomendacionesGig {
   padding: 20px; }
+
+/*Seccion Faqs*/
+.faqs {
+  padding: 15px 15px; }
+
+.faqs__card {
+  margin-bottom: 10px; }
+
+.faqs__card__icono {
+  font-size: 70px;
+  color: yellow; }
+
+.faqs__card__lista > li {
+  margin-bottom: 5px; }
 
 /*Textos*/
 h1 {
@@ -212,3 +229,19 @@ p {
   text-align: center;
   text-decoration: underline;
   font-size: 1.2em; }
+
+/*Text Faqs*/
+.faqs__card__title {
+  font-size: 35px;
+  color: white; }
+
+.faqs__card__texto {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+  color: black;
+  width: auto; }
+
+.faqs__card__texto > a {
+  color: green; }

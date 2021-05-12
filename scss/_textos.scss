@@ -113,3 +113,27 @@ p {
     text-decoration: underline;
     font-size: 1.2em;
 }
+
+
+
+/*Text Faqs*/
+
+.faqs__card__title {
+    font-size: 35px;
+    color: white;
+    
+}
+
+.faqs__card__texto {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+    width: auto;
+
+}
+
+.faqs__card__texto>a {
+    color: green;
+}

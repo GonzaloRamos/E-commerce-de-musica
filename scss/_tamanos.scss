@@ -9,7 +9,7 @@
 /*Index Tamaños*/ 
 
 .carousel-inner {
-    height: 500px;
+    height: auto;
 }
 
 .carousel-inner__img {
@@ -71,6 +71,11 @@
 
 /*Footer tamaños*/
 
+.footer__card {
+    
+    padding: 15px 15px;
+}
+
 .footer__seguinos>li>a>i {
     font-size: 25px;
     font-style: normal ;
@@ -90,4 +95,26 @@
 
 .recomendacionesGig {
     padding: 20px;
+}
+
+
+/*Seccion Faqs*/
+
+.faqs {
+    padding: 15px 15px;
+
+}
+
+.faqs__card {
+    margin-bottom: 10px;
+}
+
+.faqs__card__icono {
+    font-size: 70px; 
+    color: yellow;
+
+}
+
+.faqs__card__lista>li {
+    margin-bottom: 5px;
 }
