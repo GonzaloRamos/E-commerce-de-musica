@@ -1,140 +1,139 @@
 h1 {
-    font-family: 'Oxygen', sans-serif;
-
+  font-family: "Oxygen", sans-serif;
 }
 
 h2 {
-    font-family: 'Oxygen', sans-serif;
-
+  font-family: "Oxygen", sans-serif;
 }
 
 h3 {
-    font-family: 'Oxygen', sans-serif;
-
+  font-family: "Oxygen", sans-serif;
 }
 
 h4 {
-    font-family: 'Oxygen', sans-serif;
-
+  font-family: "Oxygen", sans-serif;
 }
 
 h5 {
-    font-family: 'Oxygen', sans-serif;
-
+  font-family: "Oxygen", sans-serif;
 }
 
 h6 {
-    font-family: 'Oxygen', sans-serif;
-
+  font-family: "Oxygen", sans-serif;
 }
 
 p {
-    font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
+/*Index Textos*/
+
+
+
+.headerIndex__titulo {
+  height: 3em;
+  margin-bottom: 0.5em;
+  color: #343434;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  border-radius: 10px 0px 10px 0px;
+  background: url(../media/imagenes/icon-5974825_640.png) no-repeat center;
+}
+
+/*Gigs Texto*/
+
 .titulosGigs {
-    font-size: 40px;
-    font-weight: 400;
-    text-shadow: 1px 3px 3px rgba(0, 128, 0, 0.233);
+  font-weight: 400;
+  text-shadow: 1px 3px 3px rgba(0, 128, 0, 0.233);
 }
 
 .tableTitulos {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2em;
 }
-
-
-/*Gigs Texto*/ 
 
 .descripcionGig__texto {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-    text-align: center;
-    color: black;
-    width: auto;
-
+  font-family: "Quicksand", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  width: auto;
 }
 
-.descripcionGig__texto>a {
-    color: green;
+.descripcionGig__texto > a {
+  color: green;
 }
 
-/*Market */ 
+/*Market */
 
 .header__card__titulo {
-    text-shadow: 1px 2px 3px black;
-
+  text-shadow: 1px 2px 3px black;
 }
 .header__card__text {
-    text-shadow: 3px 4px 5px black;
+  text-shadow: 3px 4px 5px black;
 }
 
-
-
 .destacados__titulos {
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .lanzamientosDelMes__cards__texto {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-    width: auto;
-    padding-top: 15px;
-    
+  font-family: "Quicksand", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  width: auto;
+  padding-top: 15px;
 }
 
-.lanzamientosDelMes__cards__texto>a {
-    color: rgb(0, 184, 0);
+.lanzamientosDelMes__cards__texto > a {
+  color: rgb(0, 184, 0);
 }
 
 /* Iconos */
 
 .iconosTable {
-    color: green;
-    font-size: 19px;
+  color: green;
+  font-size: 19px;
 }
 
 /*Site Map */
 
-.footer__sitemap__list>a {
-    max-width: 100%;
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    justify-self: start;
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 1.2em;
+.footer__sitemap__list > a {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  justify-self: start;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.2em;
 }
-
-
 
 /*Text Faqs*/
 
 .faqs__card__title {
-    font-size: 35px;
-    color: white;
-    
+  font-size: 35px;
+  color: white;
 }
 
 .faqs__card__texto {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    font-size: 17px;
-    text-align: center;
-    color: black;
-    width: auto;
-
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+  color: black;
+  width: auto;
 }
 
-.faqs__card__texto>a {
-    color: green;
+.faqs__card__texto > a {
+  color: green;
 }

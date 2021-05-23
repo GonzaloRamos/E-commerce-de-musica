@@ -10,11 +10,9 @@
     z-index: 1020;
 }
 
-@media (min-width: 739px) {
-    .titulo__index {
-        padding-left: 1px;
-
-    }
+.footer__quienesSomos--flex {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 @media (min-width: 992px) {
@@ -27,6 +25,7 @@
     .footer__quienesSomos {
         padding-top: 10px
     }
+
 
     .footer__seguinos {
         padding-top: 10px;

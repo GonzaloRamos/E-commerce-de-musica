@@ -2,153 +2,131 @@
 $margin: 20px;
 $padding: 20px;
 $border-double-black: 3px double black;
-$border-solid-black:  1px solid black;
-
+$border-solid-black: 1px solid black;
 
 .formReg {
-    width: 450px;
-    margin: auto;
+  width: 450px;
+  margin: auto;
 }
 
-
-/*Index Tamaños*/ 
+/*Index Tamaños*/
 
 .carousel-inner {
-    height: auto;
+  height: auto;
 }
 
 .carousel-inner__img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 87%;
-    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 87%;
+  height: auto;
 }
 
 .indexHeader {
-    padding: $padding;
+  padding: $padding;
 }
 
- .indexHeader__parrafo{
-    width: 100%;
-    margin-top: $margin;
-    border-top: $border-double-black;
-    border-bottom: $border-double-black;
-    border-radius: 20px;
- }
+.indexHeader__parrafo {
+  width: 100%;
+  margin-top: $margin;
+  border-top: $border-double-black;
+  border-bottom: $border-double-black;
+  border-radius: 20px;
+}
 
- .indexHeader__parrafo__texto {
-    padding: $padding/2;
- }
+.indexHeader__parrafo__texto {
+  padding: $padding/2;
+}
 
 .index__ultimosGigs {
-    padding: $padding;
+  padding: $padding;
 }
-
-
 
 .index__ultimosGigs__videos {
-    border-right: solid 1px black;
+  border-right: solid 1px black;
 }
-/* Margenes Market */ 
+/* Margenes Market */
 
- .header__card {
-     display: flex;
-     max-width: 100%;
-     height: auto;
-     flex-flow: column nowrap;
-     justify-items: center;
-     justify-content: center;
-     box-shadow: 10px 10px 20px black;
-
-    
- }
+.header__card {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  flex-flow: column nowrap;
+  justify-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 20px black;
+}
 
 .destacados {
-    padding: $padding/2;
+  padding: $padding/2;
 }
 
 .destacados__titulos {
-    width: 100%;
-    padding: 10px;
+  width: 100%;
+  padding: 10px;
 }
 
-
-
 .destacados__artista__borde {
-    border-left: $border-solid-black;
+  border-left: $border-solid-black;
 }
 
 .lanzamientosDelMes {
-    margin-bottom: $margin;
+  margin-bottom: $margin;
 }
 
 .lanzamientosDelMes__cards {
-    border-style: double;
-    margin-bottom: $margin;
+  border-style: double;
+  margin-bottom: $margin;
 }
-
 
 .btn--paddingTop {
-    margin-top: $margin/2;
+  margin-top: $margin/2;
 }
-
-
 
 /*Footer tamaños*/
 
-
-
 .footer__seguinos {
-    padding-top: 15px;
-    padding-bottom: 30px;
-    border: double white 3px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border: double white 3px;
 }
 
 .footer__quienesSomos {
-    border: double white 3px;
-    padding-top: 15px;
+  border: double white 3px;
+  padding-top: 15px;
 }
 
-.footer__seguinos__list>li>a>i {
-    font-size: 25px;
-    font-style: normal ;
+.footer__seguinos__list > li > a > i {
+  font-size: 25px;
+  font-style: normal;
 }
 
 .footer__sitemap__icono--paddingRight {
-    padding-right: $padding/2;
+  padding-right: $padding/2;
 }
 
-
-
-
-
-/*Seccion Gigs */ 
+/*Seccion Gigs */
 
 .recomendacionesGig {
-    padding: 20px;
+  padding: 20px;
 }
-
 
 /*Seccion Faqs*/
 
 .faqs {
-    padding: 15px 15px;
-
+  padding: 15px 15px;
 }
 
 .faqs__card {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .faqs__card__icono {
-    font-size: 70px; 
-    color: yellow;
-
+  font-size: 70px;
+  color: yellow;
 }
 
-.faqs__card__lista>li {
-    margin-bottom: 5px;
+.faqs__card__lista > li , .gigs__card__lista > li {
+  margin-bottom: 5px;
 }
-
-

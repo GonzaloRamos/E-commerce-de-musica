@@ -15,7 +15,7 @@
 
 /*Colores*/
 body {
-  background-color: #E4E4E4; }
+  background-color: #e4e4e4; }
 
 footer {
   background-color: #292929; }
@@ -165,45 +165,56 @@ footer {
   font-size: 70px;
   color: yellow; }
 
-.faqs__card__lista > li {
+.faqs__card__lista > li, .gigs__card__lista > li {
   margin-bottom: 5px; }
 
 /*Textos*/
 h1 {
-  font-family: 'Oxygen', sans-serif; }
+  font-family: "Oxygen", sans-serif; }
 
 h2 {
-  font-family: 'Oxygen', sans-serif; }
+  font-family: "Oxygen", sans-serif; }
 
 h3 {
-  font-family: 'Oxygen', sans-serif; }
+  font-family: "Oxygen", sans-serif; }
 
 h4 {
-  font-family: 'Oxygen', sans-serif; }
+  font-family: "Oxygen", sans-serif; }
 
 h5 {
-  font-family: 'Oxygen', sans-serif; }
+  font-family: "Oxygen", sans-serif; }
 
 h6 {
-  font-family: 'Oxygen', sans-serif; }
+  font-family: "Oxygen", sans-serif; }
 
 p {
-  font-family: 'Quicksand', sans-serif; }
+  font-family: "Quicksand", sans-serif; }
 
+/*Index Textos*/
+.headerIndex__titulo {
+  height: 3em;
+  margin-bottom: 0.5em;
+  color: #343434;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  border-radius: 10px 0px 10px 0px;
+  background: url(../media/imagenes/icon-5974825_640.png) no-repeat center; }
+
+/*Gigs Texto*/
 .titulosGigs {
-  font-size: 40px;
   font-weight: 400;
   text-shadow: 1px 3px 3px rgba(0, 128, 0, 0.233); }
 
 .tableTitulos {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 2em; }
 
-/*Gigs Texto*/
 .descripcionGig__texto {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: black;
   width: auto; }
@@ -224,7 +235,7 @@ p {
   text-align: center; }
 
 .lanzamientosDelMes__cards__texto {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 200;
   font-size: 15px;
   text-align: center;
@@ -259,7 +270,7 @@ p {
   color: white; }
 
 .faqs__card__texto {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 300;
   font-size: 17px;
   text-align: center;
@@ -279,9 +290,9 @@ p {
   top: 0;
   z-index: 1020; }
 
-@media (min-width: 739px) {
-  .titulo__index {
-    padding-left: 1px; } }
+.footer__quienesSomos--flex {
+  display: flex;
+  flex-flow: column nowrap; }
 
 @media (min-width: 992px) {
   .footer__sitemap {
