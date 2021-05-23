@@ -85,6 +85,7 @@ p {
     text-align: center;
     color: white;
     width: auto;
+    padding-top: 15px;
     
 }
 
@@ -101,7 +102,7 @@ p {
 
 /*Site Map */
 
-.footer__sitemap>a {
+.footer__sitemap__list>a {
     max-width: 100%;
     width: 100%;
     display: flex;

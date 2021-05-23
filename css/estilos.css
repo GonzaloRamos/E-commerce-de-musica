@@ -34,6 +34,9 @@ footer {
 .index_ultimosGigs--white {
   background-color: white; }
 
+.index__ultimosGigs__titulo {
+  background-color: #292929; }
+
 /*Imagenes*/
 /*Img market Destacado*/
 .destacados__ultimosLanzamientos__img {
@@ -81,8 +84,24 @@ footer {
   width: 87%;
   height: auto; }
 
-.index_ultimosGigs {
+.indexHeader {
   padding: 20px; }
+
+.indexHeader__parrafo {
+  width: 100%;
+  margin-top: 20px;
+  border-top: 3px double black;
+  border-bottom: 3px double black;
+  border-radius: 20px; }
+
+.indexHeader__parrafo__texto {
+  padding: 10px; }
+
+.index__ultimosGigs {
+  padding: 20px; }
+
+.index__ultimosGigs__videos {
+  border-right: solid 1px black; }
 
 /* Margenes Market */
 .header__card {
@@ -102,7 +121,7 @@ footer {
   padding: 10px; }
 
 .destacados__artista__borde {
-  border-left: solid 1px black; }
+  border-left: 1px solid black; }
 
 .lanzamientosDelMes {
   margin-bottom: 20px; }
@@ -115,18 +134,21 @@ footer {
   margin-top: 10px; }
 
 /*Footer tamaños*/
-.footer__card {
-  padding: 15px 15px; }
+.footer__seguinos {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border: double white 3px; }
 
-.footer__seguinos > li > a > i {
+.footer__quienesSomos {
+  border: double white 3px;
+  padding-top: 15px; }
+
+.footer__seguinos__list > li > a > i {
   font-size: 25px;
   font-style: normal; }
 
 .footer__sitemap__icono--paddingRight {
   padding-right: 10px; }
-
-.footer__card--border {
-  border-right: double; }
 
 /*Seccion Gigs */
 .recomendacionesGig {
@@ -207,7 +229,8 @@ p {
   font-size: 15px;
   text-align: center;
   color: white;
-  width: auto; }
+  width: auto;
+  padding-top: 15px; }
 
 .lanzamientosDelMes__cards__texto > a {
   color: #00b800; }
@@ -218,7 +241,7 @@ p {
   font-size: 19px; }
 
 /*Site Map */
-.footer__sitemap > a {
+.footer__sitemap__list > a {
   max-width: 100%;
   width: 100%;
   display: flex;
@@ -245,3 +268,35 @@ p {
 
 .faqs__card__texto > a {
   color: green; }
+
+/* Mediaqueries*/
+.footer__sitemap {
+  display: none; }
+
+.sticky-top-xs {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020; }
+
+@media (min-width: 739px) {
+  .titulo__index {
+    padding-left: 1px; } }
+
+@media (min-width: 992px) {
+  .footer__sitemap {
+    display: block;
+    padding-top: 10px;
+    border: double white 3px; }
+  .footer__quienesSomos {
+    padding-top: 10px; }
+  .footer__seguinos {
+    padding-top: 10px; }
+  nav {
+    position: initial;
+    top: 0%; }
+  .sticky-top-xs {
+    position: -webkit-initial;
+    position: initial;
+    top: 0;
+    z-index: 1020; } }

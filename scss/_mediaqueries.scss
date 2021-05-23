@@ -1,0 +1,49 @@
+.footer__sitemap {
+    display: none;
+}
+
+.sticky-top-xs {
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+@media (min-width: 739px) {
+    .titulo__index {
+        padding-left: 1px;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .footer__sitemap {
+        display: block;
+        padding-top: 10px;
+        border: double white 3px;
+    }
+
+    .footer__quienesSomos {
+        padding-top: 10px
+    }
+
+    .footer__seguinos {
+        padding-top: 10px;
+    }
+    nav {
+        position: initial;
+        top: 0%;
+    }
+
+    .sticky-top-xs {
+
+        position: -webkit-initial;
+        position: initial;
+        top: 0;
+        z-index: 1020;
+    }
+
+}
+
+

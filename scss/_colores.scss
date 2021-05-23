@@ -1,34 +1,43 @@
-//   * { 
-//       border: solid red 1px;
-//    }
+//    * { 
+//    border: solid red 1px;
+    // }
+
+$fondoGris: #292929;
+$fondoCrema: #E4E4E4;
+$fondoBlanco: white;
 
 body {
-    background-color: #E4E4E4;
+    background-color: $fondoCrema;
 }
 
 footer {
-    background-color: #292929;
+    background-color: $fondoGris;
 }
 
 
 /*Colores Market*/
 
 .destacados__titulos {
-    background-color: #292929;
+    background-color: $fondoGris;
 }
 
 
 .lanzamientosDelMes {
-    background-color: #292929;
+    background-color: $fondoGris;
 }
 
 
 /* Colores Index*/ 
 
 .index__novedadesGenerales {
-    background-color: #292929;
+    background-color: $fondoGris;
 }
 
 .index_ultimosGigs--white {
-    background-color: white;
+    background-color: $fondoBlanco;
+}
+
+
+.index__ultimosGigs__titulo {
+    background-color: $fondoGris;
 }
