@@ -10,12 +10,9 @@
 }
 
 .destacados__ultimosLanzamientos__img>img {
-    padding: 2px;
+    padding: 10px;
 }
 
-.destacados__label__img {
-    display: flex;
-}
 
 .destacados__label__img {
     display: flex;
@@ -29,9 +26,9 @@
 
 }
 
-// .destacados__label__img>img {
-//     padding: 10px;
-// }
+ .destacados__label__img>img {
+     padding: 10px;
+ }
 
 .header {
     background-image: url(../media/imagenes/banner_market_2_optimizado.jpg);

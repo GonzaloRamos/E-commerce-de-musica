@@ -47,10 +47,7 @@ footer {
   height: auto; }
 
 .destacados__ultimosLanzamientos__img > img {
-  padding: 2px; }
-
-.destacados__label__img {
-  display: flex; }
+  padding: 10px; }
 
 .destacados__label__img {
   display: flex;
@@ -60,6 +57,9 @@ footer {
   height: auto;
   padding: 10px;
   justify-content: space-evenly; }
+
+.destacados__label__img > img {
+  padding: 10px; }
 
 .header {
   background-image: url(../media/imagenes/banner_market_2_optimizado.jpg);
@@ -100,9 +100,6 @@ footer {
 .index__ultimosGigs {
   padding: 20px; }
 
-.index__ultimosGigs__videos {
-  border-right: solid 1px black; }
-
 /* Margenes Market */
 .header__card {
   display: flex;
@@ -119,9 +116,6 @@ footer {
 .destacados__titulos {
   width: 100%;
   padding: 10px; }
-
-.destacados__artista__borde {
-  border-left: 1px solid black; }
 
 .lanzamientosDelMes {
   margin-bottom: 20px; }
@@ -310,4 +304,9 @@ p {
     position: -webkit-initial;
     position: initial;
     top: 0;
-    z-index: 1020; } }
+    z-index: 1020; }
+  /*Index Media Querie */
+  .index__ultimosGigs__videos {
+    border-right: solid 1px black; }
+  .destacados__artista__borde {
+    border-left: 1px solid black; } }
